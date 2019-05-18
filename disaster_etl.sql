@@ -10,4 +10,16 @@ create table if not exists ufo_sightings (
     date text,
     name text, 
     country text,
-    description text)
+    description text);
+    
+create table if not exists eclipse_event (
+	id int primary key auto_increment,
+    catalog_number int,
+    year text,
+    month text,
+    day text,
+    eclipse_type text,
+    latitude text,
+    longitude text);
+    
+
