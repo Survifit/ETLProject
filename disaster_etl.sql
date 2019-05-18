@@ -44,4 +44,3 @@ create table if not exists Hurricanes(
     Longitude text
 );
  
- 
