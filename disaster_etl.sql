@@ -23,3 +23,25 @@ create table if not exists eclipse_event (
     longitude text);
     
 
+create table if not exists Volcano_Eruptions (
+	id int primary key auto_increment,
+    Year text,
+    Month text,
+    Day text,
+    Volcano_ID text,
+    Volcano_Name text,
+    Location text,
+    Latitude text,
+    Longitude text
+);
+
+create table if not exists Hurricanes(
+	Year text,
+    Month text,
+    Day text,
+    ID text,
+    Latitude text,
+    Longitude text
+);
+ 
+ 
